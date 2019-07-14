@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.canvas_container {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.controls {
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.controls input {
+    float: left;
+    margin-right: 10px;
+}
+
+canvas {
+    background: #ccc;
+    cursor: pointer;
+}
